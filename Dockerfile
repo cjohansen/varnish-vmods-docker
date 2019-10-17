@@ -39,3 +39,4 @@ FROM varnish:6.2.0-1
 
 COPY --from=0 /usr/local/lib/libvarnishapi.so.2.0.0 /usr/lib/x86_64-linux-gnu/libvarnishapi.so
 COPY --from=0 /usr/local/lib/varnish/vmods /usr/local/lib/varnish/vmods
+COPY LICENSE /LICENSE
